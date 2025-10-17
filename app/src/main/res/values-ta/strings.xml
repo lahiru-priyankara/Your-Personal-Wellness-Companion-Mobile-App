@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">நல்வாழ்வு பயன்பாடு</string>
+    <string name="first_fragment_label">முதல் பகுதி</string>
+    <string name="second_fragment_label">இரண்டாவது பகுதி</string>
+    <string name="next">அடுத்து</string>
+    <string name="previous">முந்தைய</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet</string>
+    <string name="action_settings">அமைப்புகள்</string>
+    
+    <!-- App specific strings -->
+    <string name="habits">பழக்கங்கள்</string>
+    <string name="mood_journal">மனநிலை பதிவு</string>
+    <string name="settings">அமைப்புகள்</string>
+    <string name="today">இன்று</string>
+    <string name="timer">டைமர்</string>
+    <string name="good_morning">காலை வணக்கம்! 👋</string>
+    <string name="add_habit">பழக்கம் சேர்க்க</string>
+    <string name="add_mood">மனநிலை சேர்க்க</string>
+    <string name="hydration_reminder">நீர் அருந்தும் நினைவூட்டல்</string>
+    <string name="save">சேமிக்க</string>
+</resources>

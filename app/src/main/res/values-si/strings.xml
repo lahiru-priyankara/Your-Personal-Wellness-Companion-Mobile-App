@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">සෞඛ්‍ය යෙදුම</string>
+    <string name="first_fragment_label">පළමු කොටස</string>
+    <string name="second_fragment_label">දෙවන කොටස</string>
+    <string name="next">ඊළඟ</string>
+    <string name="previous">පෙර</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet</string>
+    <string name="action_settings">සැකසීම්</string>
+    
+    <!-- App specific strings -->
+    <string name="habits">පුරුදු</string>
+    <string name="mood_journal">මනෝභාව සටහන</string>
+    <string name="settings">සැකසීම්</string>
+    <string name="today">අද</string>
+    <string name="timer">ටයිමරය</string>
+    <string name="good_morning">සුභ උදෑසනක්! 👋</string>
+    <string name="add_habit">පුරුදු එක් කරන්න</string>
+    <string name="add_mood">මනෝභාවය එක් කරන්න</string>
+    <string name="hydration_reminder">ජල සේවන සිහිකැඳවීම</string>
+    <string name="save">සුරකින්න</string>
+</resources>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gradient_start"
+    android:orientation="vertical">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="16dp"
+            android:src="@android:drawable/ic_menu_revert"
+            app:tint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/modeTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="⏱️ Timer"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="8dp"
+            android:src="@android:drawable/ic_dialog_info"
+            app:tint="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/settingsButton"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="8dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@android:drawable/ic_menu_manage"
+            app:tint="#FFFFFF" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@android:drawable/ic_lock_silent_mode"
+            app:tint="#FFFFFF" />
+
+    </LinearLayout>
+
+    <!-- Timer Circle Container -->
+
+    <!-- Start/Pause Button -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <!-- Progress Ring Background -->
+        <View
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/card_professional" />
+
+        <!-- Progress Ring -->
+        <ProgressBar
+            android:id="@+id/progressRing"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/timer_ring_background"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/circular_progress" />
+
+        <!-- Timer Display -->
+        <TextView
+            android:id="@+id/timerDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="monospace"
+            android:text="00:00"
+            android:textColor="@color/colorPrimaryVariant"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/startPauseBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/start_button_bg"
+        android:minWidth="120dp"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="12dp"
+        android:text="START"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <!-- Timer Mode Tabs -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_card"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/stopwatchTab"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_accent"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="Stopwatch"
+            android:textColor="@color/colorOnAccent" />
+
+        <TextView
+            android:id="@+id/countdownTab"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="Countdown"
+            android:textColor="@color/colorOnAccent" />
+
+        <TextView
+            android:id="@+id/intervalsTab"
+            android:layout_width="4dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="Intervals"
+            android:textColor="@color/colorOnAccent" />
+
+    </LinearLayout>
+
+    <!-- Status Text -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="No recent records"
+        android:textColor="@color/status_inactive" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="No activity selected"
+        android:textColor="@color/status_inactive" />
+
+    <!-- Hidden Reset Button -->
+    <Button
+        android:id="@+id/resetBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/transparent"
+        android:text="RESET"
+        android:textColor="#FFFFFF"
+        android:visibility="gone" />
+
+</LinearLayout>

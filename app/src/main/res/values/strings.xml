@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WellNest</string>
+    <string name="add_habit">Add Habit</string>
+    <string name="add_mood">Add Mood</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="habits">Habits</string>
+    <string name="hydration_reminder">Hydration Reminder</string>
+    <string name="mood_journal">Mood Journal</string>
+    <string name="save">Save</string>
+    <string name="settings">Settings</string>
+    <string name="timer">Timer</string>
+    <string name="today">Today</string>
+    
+    <!-- Professional App Branding -->
+    <string name="app_tagline">Professional Wellness Management</string>
+    <string name="app_description">Transform your daily wellness routine with professional-grade tracking, analytics, and insights.</string>
+    <string name="welcome_message">Welcome to WellnessPro - Your Personal Wellness Assistant</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_title">Wellness Dashboard</string>
+    <string name="key_metrics">Key Metrics</string>
+    <string name="smart_insights">Smart Insights</string>
+    <string name="export_report">Export Report</string>
+    
+    <!-- Professional Features -->
+    <string name="professional_analytics">Professional Analytics</string>
+    <string name="advanced_tracking">Advanced Tracking</string>
+    <string name="wellness_insights">Wellness Insights</string>
+    <string name="data_export">Data Export</string>
+    <string name="privacy_controls">Privacy Controls</string>
+    <string name="customization">Customization</string>
+</resources>

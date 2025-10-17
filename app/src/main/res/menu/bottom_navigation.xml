@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/HomeFragment"
+        android:icon="@android:drawable/ic_menu_day"
+        android:title="" />
+    <item
+        android:id="@+id/FirstFragment"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="" />
+    <item
+        android:id="@+id/MoodFragment"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="" />
+    <item
+        android:id="@+id/TimerFragment"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:title="" />
+    <item
+        android:id="@+id/SettingsFragment"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="" />
+</menu>

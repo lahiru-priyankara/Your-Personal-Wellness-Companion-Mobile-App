@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Gradient using your palette -->
+    <gradient
+        android:type="linear"
+        android:angle="135"
+        android:startColor="@color/gradient_start"
+        android:centerColor="@color/gradient_end"
+        android:endColor="@color/gradient_accent"
+        android:centerX="0.5"
+        android:centerY="0.5" />
+
+    <!-- Soft radius if you want rounded effect -->
+    <corners android:radius="0dp" />
+</shape>

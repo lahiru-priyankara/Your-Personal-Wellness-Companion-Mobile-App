@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/HomeFragment">
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.example.myapplication.HomeFragment"
+        android:label="Today"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.myapplication.HabitsFragment"
+        android:label="Habits"
+        tools:layout="@layout/fragment_habits" />
+    <fragment
+        android:id="@+id/MoodFragment"
+        android:name="com.example.myapplication.MoodFragment"
+        android:label="Mood Journal"
+        tools:layout="@layout/fragment_mood" />
+    <fragment
+        android:id="@+id/TimerFragment"
+        android:name="com.example.myapplication.TimerFragment"
+        android:label="Timer"
+        tools:layout="@layout/fragment_timer" />
+    <fragment
+        android:id="@+id/SettingsFragment"
+        android:name="com.example.myapplication.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/AnalyticsFragment"
+        android:name="com.example.myapplication.AnalyticsFragment"
+        android:label="Analytics"
+        tools:layout="@layout/fragment_analytics" />
+    <fragment
+        android:id="@+id/GoalsFragment"
+        android:name="com.example.myapplication.GoalsFragment"
+        android:label="Goals"
+        tools:layout="@layout/fragment_goals" />
+    <fragment
+        android:id="@+id/StreakCalendarFragment"
+        android:name="com.example.myapplication.StreakCalendarFragment"
+        android:label="Streak Calendar"
+        tools:layout="@layout/fragment_streak_calendar" />
+    <fragment
+        android:id="@+id/WellnessTipsFragment"
+        android:name="com.example.myapplication.WellnessTipsFragment"
+        android:label="Wellness Tips"
+        tools:layout="@layout/fragment_wellness_tips" />
+    <fragment
+        android:id="@+id/WaterTrackingFragment"
+        android:name="com.example.myapplication.WaterTrackingFragment"
+        android:label="Water Tracking"
+        tools:layout="@layout/fragment_water_tracking" />
+    <fragment
+        android:id="@+id/MeditationFragment"
+        android:name="com.example.myapplication.MeditationFragment"
+        android:label="Meditation"
+        tools:layout="@layout/fragment_meditation" />
+    <fragment
+        android:id="@+id/HabitTemplatesFragment"
+        android:name="com.example.myapplication.HabitTemplatesFragment"
+        android:label="Habit Templates"
+        tools:layout="@layout/fragment_habit_templates" />
+    <fragment
+        android:id="@+id/AdvancedSettingsFragment"
+        android:name="com.example.myapplication.AdvancedSettingsFragment"
+        android:label="Advanced Settings"
+        tools:layout="@layout/fragment_advanced_settings" />
+    <fragment
+        android:id="@+id/WeeklyProgressFragment"
+        android:name="com.example.myapplication.WeeklyProgressFragment"
+        android:label="Weekly Progress"
+        tools:layout="@layout/fragment_weekly_progress" />
+    <fragment
+        android:id="@+id/DashboardFragment"
+        android:name="com.example.myapplication.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/AddHabitFragment"
+        android:name="com.example.myapplication.AddHabitFragment"
+        android:label="Add Habit"
+        tools:layout="@layout/fragment_add_habit" />
+    <fragment
+        android:id="@+id/AddMoodFragment"
+        android:name="com.example.myapplication.AddMoodFragment"
+        android:label="Add Mood"
+        tools:layout="@layout/fragment_add_mood" />
+</navigation>
