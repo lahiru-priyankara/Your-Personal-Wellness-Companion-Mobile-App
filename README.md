@@ -92,21 +92,15 @@ Built with **Android Studio** and **Kotlin**, WellNest uses **Room ORM with SQLi
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="assets/screenshots/loading_screen.jpg" alt="Loading Screen" width="30%"/>
-  <img src="assets/screenshots/home_screen.jpg" alt="Home Screen" width="30%"/>
-  <img src="assets/screenshots/daily_habits.jpg" alt="Daily Habits" width="30%"/>
+  <img src="0.jpg" alt="Loading Screen" width="30%"/>
+  <img src="01.jpg" alt="Home Screen" width="30%"/>
+  <img src="03.jpg" alt="Daily Habits" width="30%"/>
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/mood_journal.jpg" alt="Mood Journal" width="30%"/>
-  <img src="assets/screenshots/hydration_reminder.jpg" alt="Hydration Reminder" width="30%"/>
-  <img src="assets/screenshots/meditation.jpg" alt="Meditation" width="30%"/>
-</p>
-
-<p align="center">
-  <img src="assets/screenshots/settings_main.jpg" alt="Settings" width="30%"/>
-  <img src="assets/screenshots/settings_language.jpg" alt="Language Settings" width="30%"/>
-  <img src="assets/screenshots/advanced_settings.jpg" alt="Advanced Settings" width="30%"/>
+  <img src="04.jpg" alt="Mood Journal" width="30%"/>
+  <img src="10.jpg" alt="Hydration Reminder" width="30%"/>
+  <img src="11.jpg" alt="Meditation" width="30%"/>
 </p>
 
 ---
